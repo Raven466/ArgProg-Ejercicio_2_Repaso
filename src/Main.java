@@ -52,6 +52,17 @@ public class Main {
         Y después comparar el partido del pronostico con el partido de la ronda
 
         */
+
+
+        /*
+        for de pronosticos
+            for de rondas
+              cuando estaRonda = estePronostico.ronda
+                for de partidos
+                  cuando estePartido.equipo1 == estePronostico.equipo1 && estePartido.equipo2 == estePronostico.equipo2
+                     ==== Suma un punto ====
+
+        */
         float sumaDeVentas = 0;
         for (int v = 0; v < ventas.size(); v++) {
             Venta estaVenta = ventas.get(v);
